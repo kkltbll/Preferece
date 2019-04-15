@@ -1,6 +1,7 @@
 # Preferece
 MainActivity
 ==============
+```
 package com.example.administrator.preferece;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
@@ -21,9 +22,10 @@ public class MainActivity extends AppCompatActivity {
         transaction.commit();
     }
 }
+```
 ==============
 PreFragment
-
+```
 
 package com.example.administrator.preferece;
 import android.os.Bundle;
@@ -37,9 +39,10 @@ public class PreFragment extends PreferenceFragment {
         addPreferencesFromResource(R.xml.preference);
     }
 }
+```
 ============
 preference.xml
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceCategory android:title="In-line preferences">
@@ -94,3 +97,8 @@ preference.xml
             android:title="Child checkbox preference" />
     </PreferenceCategory>
 </PreferenceScreen>
+```
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190415175619640.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxNTg1ODAx,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190415175637627.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxNTg1ODAx,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/201904151758107.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxNTg1ODAx,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190415175824645.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxNTg1ODAx,size_16,color_FFFFFF,t_70)
